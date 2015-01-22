@@ -7,17 +7,66 @@
 	</head>
 	<body>
 
-	<section id="main">
+	</section id="filters">
 		<select name="selectYear">
-		  <option value="6">class 6</option>
-		  <option value="5">class 5</option>
-		  <option value="4">class 4</option>
-		  <option value="3">class 3</option>
-		  <option value="2">class 2</option>
-		  <option value="1">class 1</option>
+			<option value="6">4th class/Primary 6</option>
+			<option value="7">5th class/Primary 7</option>
+			<option value="8">6th class/Primary 8</option>
+			<option value="9">1st year/Year 9</option>
+			<option value="10">2nd year/Year 10</option>
+			<option value="11">3rd year/Year 11</option>
+			<option value="12">4th year TY/Year 12</option>
+			<option value="13">5th year/Year 13</option>
 		</select>
 		
-	
+		<select name="selectProvince">
+			<option value="0">All Provinces</option>
+			<option value="100">Leinster</option>
+			<option value="200">Munster</option>
+			<option value="300">Ulster</option>
+			<option value="400">Connacht</option>
+		</select>
+		
+		<select name="selectCounty">
+			<option value="0">All Counties</option>
+			<option value="101">Carlow</option>
+			<option value="102">Dublin</option>
+			<option value="103">Kildare</option>
+			<option value="104">Kilkenny</option>
+			<option value="105">Laois</option>
+			<option value="106">Longford</option>
+			<option value="107">Louth</option>
+			<option value="108">Meath</option>
+			<option value="109">Offaly</option>
+			<option value="110">Westmeath</option>
+			<option value="111">Wexford</option>
+			<option value="113">Wicklow</option>
+			<option value="201">Clare</option>
+			<option value="202">Cork</option>
+			<option value="203">Kerry</option>
+			<option value="204">Limerick</option>
+			<option value="205">Tipperary</option>
+			<option value="206">Waterford</option>
+			<option value="301">Antrim</option>
+			<option value="302">Armagh</option>
+			<option value="303">Cavan</option>
+			<option value="304">Donegal</option>
+			<option value="305">Down</option>
+			<option value="306">Fermanagh</option>
+			<option value="307">Londonderry</option>
+			<option value="308">Monaghan</option>
+			<option value="309">Tyrone</option>
+			<option value="401">Galway</option>
+			<option value="402">Leitrim</option>
+			<option value="403">Mayo</option>
+			<option value="404">Roscommon</option>
+			<option value="405">Sligo</option>
+			<option value="999" disabled=true></option>
+		</select>
+		<button name="buttonSelectFilters">select</button>
+	</section id="filters">
+		
+	<section class="datagrid" id="main">	
 		<table name="mainLeagueTable">
 		
 		</table>
